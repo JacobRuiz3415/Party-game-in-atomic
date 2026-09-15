@@ -18,9 +18,9 @@ window.onfocus = function() {
     return game.run();
 };
 
-atom.canvas = document.getElementsByTagName('canvas')[0];
-atom.context = atom.canvas.getContext('2d');
 
+game.run();
+/*
 game.draw = function() {
     atom.context.beginPath();
     atom.context.fillStyle = '#34e';
@@ -31,5 +31,6 @@ game.draw = function() {
     atom.context.fillStyle = '#2e2';
     atom.context.fillRect(0, atom.height/2, atom.width, atom.height/2);
 };
-
-game.run();
+atom.canvas = document.getElementsByTagName('canvas')[0];
+atom.context = atom.canvas.getContext('2d');
+*/
