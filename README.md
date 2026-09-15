@@ -1,3 +1,3 @@
-# party gamr
+# party game
 Based on web game cookbook
 - use atomic js
